@@ -1,4 +1,4 @@
-import sun.font.CreatedFontTracker;
+
 
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -59,7 +59,11 @@ public class Main {
                 @Override
                 public void run() {
                     money.addAndGet(temp);
+
                     System.out.println("hhhh");
+
+                    System.out.println("登录");
+
                 }
             }).start();
         }
