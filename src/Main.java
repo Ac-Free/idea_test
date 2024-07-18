@@ -47,28 +47,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 //    }
 //}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Main {
     public static AtomicInteger money = new AtomicInteger(0);
 
@@ -84,6 +62,8 @@ public class Main {
                 }
             }).start();
         }
+
+
 
         TimeUnit.SECONDS.sleep(1);
         System.out.println(money);
