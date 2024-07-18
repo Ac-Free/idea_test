@@ -59,6 +59,7 @@ public class Main {
                 @Override
                 public void run() {
                     money.addAndGet(temp);
+                    System.out.println("Current money: ");
                 }
             }).start();
         }
